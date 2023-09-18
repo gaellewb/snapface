@@ -29,6 +29,7 @@ export class FaceSnap{
     //     }
 
     // Je rends plus facile à lire en enlevant le constructor :
+    id!: number;
     title!: string;
     description!: string;
     imageUrl!: string;
