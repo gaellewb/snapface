@@ -8,12 +8,13 @@ import { Router } from '@angular/router';
   templateUrl: './face-snap.component.html',
   styleUrls: ['./face-snap.component.scss']
 })
+
 export class FaceSnapComponent implements OnInit {
   @Input() faceSnap!: FaceSnap;
   buttonText!: string;
 
-constructor(private faceSnapsService: FaceSnapsService,
-            private router: Router) {}
+  constructor(private faceSnapsService: FaceSnapsService,
+              private router: Router) {}
 
   ngOnInit(): void {
     this.buttonText = 'Oh Snap!';

@@ -10,6 +10,13 @@ import { HeaderComponent } from './header/header.component';
 import { AppRoutingModule } from './app-routing.module';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { SingleFaceSnapComponent } from './single-face-snap/single-face-snap.component';
+import { TableComponent } from './table/table.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatButtonModule } from '@angular/material/button';
+import { MatIconModule } from '@angular/material/icon';
+import { NotFoundComponent } from './not-found/not-found.component';
+import {MatTableModule} from '@angular/material/table';
+
 
 @NgModule({
   declarations: [
@@ -18,11 +25,17 @@ import { SingleFaceSnapComponent } from './single-face-snap/single-face-snap.com
     FaceSnapListComponent,
     HeaderComponent,
     LandingPageComponent,
-    SingleFaceSnapComponent
+    SingleFaceSnapComponent,
+    NotFoundComponent,
+    TableComponent
   ],
   imports: [
     BrowserModule, 
-    AppRoutingModule
+    AppRoutingModule, 
+    BrowserAnimationsModule,
+    MatButtonModule,
+    MatIconModule,
+    MatTableModule
   ],
   providers: [
     { provide: LOCALE_ID, useValue: 'fr-FR' }

@@ -7,6 +7,7 @@ import { FaceSnapsService } from '../services/face-snaps.service';
   templateUrl: './face-snap-list.component.html',
   styleUrls: ['./face-snap-list.component.scss']
 })
+
 export class FaceSnapListComponent {
 
   faceSnaps!: FaceSnap[];

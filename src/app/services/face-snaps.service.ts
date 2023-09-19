@@ -10,7 +10,7 @@ export class FaceSnapsService {
         {
             id: 1,
             title: 'Le cocker',
-            description: 'Le plus gentil chien du monde !',
+            description: 'Le chien parfait !',
             imageUrl: 'https://unpointculture.com/wp-content/uploads/2023/04/race-chien-cocker-anglais-1220x600.jpg',
             createdDate: new Date(),
             snaps: 0,
@@ -19,7 +19,7 @@ export class FaceSnapsService {
         {
             id: 2,
             title: 'Le panda roux',
-            description: 'Le plus beau',
+            description: 'Parce que c\'est le plus beau',
             imageUrl: 'https://parc.branfere.com/wp-content/uploads/sites/2/2018/07/panda-roux-carnivores-branfere.jpg',
             createdDate: new Date(),
             snaps: 0,
@@ -28,7 +28,7 @@ export class FaceSnapsService {
         {
             id: 3,
             title: 'Le manchot',
-            description: 'Mon préféré',
+            description: 'Je l\'aime trop !',
             imageUrl: 'https://t4.ftcdn.net/jpg/00/01/83/73/240_F_1837302_bzSusKQ2holEpeb4NU5trJvkYnlZpd.jpg',
             createdDate: new Date(),
             snaps: 0
