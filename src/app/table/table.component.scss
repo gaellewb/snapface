@@ -1,7 +1,19 @@
 .container {
-    margin: 30px;
+    margin: 30px 300px;
 }
 
 table {
     width: 100%;
+}
+
+th, td {
+    text-align: center;
+}
+
+.align-left {
+    text-align: left;
+}
+
+button {
+    margin-bottom: 20px;
 }

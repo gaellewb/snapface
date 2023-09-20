@@ -17,11 +17,14 @@ a {
 
     &:hover {
         text-decoration: underline;
-        color: #0eb4eb;
+        color: #ee479b;
     }
 }
 
 .active {
-    color: #0eb4eb;
-    text-decoration: underline;
+    color: #3ab1ad;
+    
+    &:hover {
+        color: #3ab1ad;
+    }
 }
